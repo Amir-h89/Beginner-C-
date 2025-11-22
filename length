@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string n;
+                            int len;
+                            cout<<"ener name:"<<endl;
+                            getline(cin,n);
+
+                            cout<<n.length()<<endl;
+                            len=n.length();
+                            for(int i=0; i<len;i++)
+                                cout<<n[i]<<"\t";
+    return 0;
+}
